@@ -15,6 +15,7 @@
 #
 
 $(call inherit-product, vendor/huawei/hi6250-common/hi6250-common-vendor.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
 # APN configs
 PRODUCT_COPY_FILES += \
