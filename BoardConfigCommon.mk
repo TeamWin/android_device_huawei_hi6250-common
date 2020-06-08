@@ -18,6 +18,9 @@ include build/make/target/board/generic_arm64_ab/BoardConfig.mk
 
 VENDOR_PATH := device/huawei/hi6250-common
 
+BUILD_BROKEN_DUP_RULES := true
+BUILD_BROKEN_PHONY_TARGETS := true
+
 # Platform
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
